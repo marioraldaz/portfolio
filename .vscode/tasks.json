@@ -4,9 +4,9 @@
     {
       "label": "Client Tasks",
       "type": "npm",
-      "script": "dev",
+      "script": "start",
       "options": {
-        "cwd": "${workspaceFolder}/client"
+        "cwd": "${workspaceFolder}"
       },
       "runOptions": {
         "runOn": "folderOpen"
@@ -30,7 +30,7 @@
         "--watch"
       ],
       "options": {
-        "cwd": "${workspaceFolder}/client"
+        "cwd": "${workspaceFolder}"
       },
       "runOptions": {
         "runOn": "folderOpen"
