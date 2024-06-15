@@ -1,9 +1,18 @@
 {
   "greeting": "¡Hola!",
   "intro": "Bienvenido a mi sitio web personal de portafolio.",
+  "roleTitle": "¿Qué hago?",
+  "switchLanguage": "Translate to English",
   "role": "Como Ingeniero de Software AI SaaS, me especializo en identificar casos de uso y ayudar a los productos de software a implementar soluciones impulsadas por inteligencia artificial. Mi rol incluye el diseño, codificación e implementación de modelos de IA, integrándolos perfectamente en nuestras ofertas, y colaborando con equipos interdisciplinarios para ofrecer soluciones innovadoras de software adaptadas a las necesidades de los usuarios. Me esfuerzo por aprovechar la tecnología de IA para mejorar la funcionalidad y la experiencia del usuario en nuestros productos.",
   "technologies": {
-    "software": "Desarrollo de software utilizando Django REST Framework, React y TypeScript.",
-    "ai_tools": "Uso de herramientas de IA como Langchain, LangGraph, OpenAI API, RAG, bases de datos vectoriales, FAISS, y modelos de OCR (Tesseract, Pytesseract, OpenCV)."
+    "title": "Tecnologías que uso y disfruto:",
+    "languages": "Estos son los lenguajes con los que trabajo: Python, Javascript, Typescript, Java, SQL, PHP, HTML, CSS, XPath, XQuery",
+    "testing": "Estos son algunos frameworks de prueba que suelo utilizar: Pytest, Selenium, Jest, Unitest, JUnit",
+    "software": "Este es el conjunto con el que actualmente trabajo: Desarrollo de software utilizando Django REST Framework, React y TypeScript.",
+    "software2": "Algo que disfruto hacer: Desarrollo de servicios con Java.",
+    "software3": "Bases de datos que uso o he usado: PostgreSQL, MariaDB, MongoDB, MySQL, Oracle",
+    "software4": "Algunos lenguajes de estilos que me gustan: TailwindCSS, Bootstrap, Sass, SCSS.",
+    "software5": "Además, estoy aprendiendo otras herramientas como Vue y Spring.",
+    "ai_tools": "Mis herramientas de inteligencia artificial: Langchain, LangGraph, OpenAI API, RAG, bases de datos vectoriales (Weaviate), FAISS, y herramientas OCR (Tesseract, Pytesseract, OpenCV)."
   }
 }

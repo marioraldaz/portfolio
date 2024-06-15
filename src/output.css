@@ -581,6 +581,14 @@ video {
   height: 100vh;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -609,6 +617,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
 .bg-blue-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
@@ -635,6 +647,10 @@ video {
 
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
+}
+
+.bg-opacity-35 {
+  --tw-bg-opacity: 0.35;
 }
 
 .p-4 {

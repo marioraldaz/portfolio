@@ -5,6 +5,7 @@ import {
   Route,
   Navigate,
 } from 'react-router-dom';
+import Header from './components//Header/Header';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Home/Projects';
@@ -14,12 +15,13 @@ import i18n from 'i18next';
 import { useTranslation } from './hooks/useTranslations'; // Import custom hook for translations
 
 const App: React.FC = () => {
-  const { t } = useTranslation();
+  useTranslation(); // Use custom hook for translations
 
   return (
     <I18nextProvider i18n={i18n}>
       <Router>
         <div className="App">
+          <Header />
           <Routes>
             <Route path="/Home" element={<Home />} />
             <Route path="/Contact" element={<Contact />} />
