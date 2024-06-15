@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="coolGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#40C9FF;stop-opacity:1" />
+      <stop offset="16.67%" style="stop-color:#5CACFF;stop-opacity:1" />
+      <stop offset="33.33%" style="stop-color:#788FFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9473FF;stop-opacity:1" />
+      <stop offset="66.67%" style="stop-color:#B056FF;stop-opacity:1" />
+      <stop offset="83.33%" style="stop-color:#CC39FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E81CFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with gradient fill -->
+  <rect width="200" height="200" rx="20" fill="url(#coolGradient)"/>
+
+  <!-- Styled text -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="white" font-weight="bold" text-shadow="2px 2px 4px rgba(0,0,0,0.3)">
+    Marios Portfolio
+  </text>
+</svg>
