@@ -1,4 +1,4 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="350" height="200" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg">
   <!-- Gradient definition -->
   <defs>
     <linearGradient id="coolGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -13,10 +13,10 @@
   </defs>
   
   <!-- Background with gradient fill -->
-  <rect width="200" height="200" rx="20" fill="url(#coolGradient)"/>
+  <rect width="350" height="200" rx="20" fill="url(#coolGradient)"/>
 
   <!-- Styled text -->
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="white" font-weight="bold" text-shadow="2px 2px 4px rgba(0,0,0,0.3)">
-    Marios Portfolio
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold" text-shadow="2px 2px 4px rgba(0,0,0,0.3)">
+    Mario Rodriguez Aldaz
   </text>
 </svg>

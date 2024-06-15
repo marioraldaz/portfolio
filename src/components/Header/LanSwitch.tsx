@@ -9,7 +9,14 @@ const LangSwitch: React.FC = () => {
     i18n.changeLanguage(newLang); // Change the language using i18next's changeLanguage method
   };
 
-  return <button onClick={handleLangSwitch}>{t('switchLanguage')}</button>;
+  return (
+    <button
+      className="ml-auto mr-12 border-2 border-gray-700 p-2 rounded-md hover:scale-110 hover:bg-light-blue hover:text-white"
+      onClick={handleLangSwitch}
+    >
+      {t('switchLanguage')}
+    </button>
+  );
 };
 
 export default LangSwitch;

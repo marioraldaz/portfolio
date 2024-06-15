@@ -12,11 +12,8 @@ import Projects from './pages/Home/Projects';
 import './App.css';
 import { I18nextProvider } from 'react-i18next';
 import i18n from 'i18next';
-import { useTranslation } from './hooks/useTranslations'; // Import custom hook for translations
 
 const App: React.FC = () => {
-  useTranslation(); // Use custom hook for translations
-
   return (
     <I18nextProvider i18n={i18n}>
       <Router>
