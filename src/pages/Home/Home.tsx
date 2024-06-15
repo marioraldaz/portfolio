@@ -1,7 +1,9 @@
+import Description from './Description';
+
 const Home: React.FC = () => {
   return (
-    <div className="flex items-center justify-center w-full h-screen">
-      <div className="text-center">
+    <div className="flex flex-col mt-12 justify-center w-full h-100vh">
+      <div className="text-center flex flex-col">
         <h1 className="text-6xl font-bold text-white mb-4 drop-shadow-lg">
           Marios Portfolio
         </h1>
@@ -9,6 +11,7 @@ const Home: React.FC = () => {
           Welcome to my personal portfolio website
         </p>
       </div>
+      <Description />
     </div>
   );
 };

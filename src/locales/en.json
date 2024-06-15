@@ -1,0 +1,9 @@
+{
+  "greeting": "Hello!",
+  "intro": "Welcome to my personal portfolio website.",
+  "role": "As an AI SaaS Software Engineer, I focus on identifying use cases and helping software products implement AI-driven solutions. My role includes designing, coding, and deploying AI models, integrating them seamlessly into our offerings, and collaborating with cross-functional teams to deliver innovative software solutions tailored to user needs. I strive to leverage AI technology to enhance the functionality and user experience of our products.",
+  "technologies": {
+    "software": "Software development using Django REST Framework, React, and TypeScript.",
+    "ai_tools": "Use of AI tools such as Langchain, LangGraph, OpenAI API, RAG, vector databases, FAISS, and OCR models (Tesseract, Pytesseract, OpenCV)."
+  }
+}
